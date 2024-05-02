@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    height:400vh;
+    
+}
+.Main{
+    
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    border: 200vw;
+    /* border-left: 100px; */
+    background-color: brown;
+    /* border-color: aqua; */
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin-left: 5px;   
+}
+.portfolio{
+    margin-left: 50px;
+    font-style: inherit;
+}
+/* .Main .portfolio:hover{
+    opacity: 0.15;
+    background-color: rgb(255, 0, 157);
+    cursor: pointer;
+}
+.Main .portfolio:active{
+    transition: opacity 1s;
+} */
+.Main .Profile:hover{
+    opacity: 0.15;
+    background-color: rgb(255, 0, 157);
+    /* transition: opacity 1s; */
+    cursor: pointer;
+    font-style: inherit;
+}
+.Main .Profile:active{
+    transition: opacity 1s;
+}
+.Main .Skilss:hover{
+    opacity: 0.15;
+    background-color: rgb(255, 0, 157);
+    /* transition: opacity 1s; */
+    cursor: pointer;
+    font-style: inherit;
+}
+.Main .Skilss:active{
+    transition: opacity 1s;
+}
+.Main .Gallery:hover{
+    opacity: 0.15;
+    background-color: rgb(255, 0, 157);
+    /* transition: opacity 1s; */
+    cursor: pointer;
+    font-style: inherit;
+}
+.Main .Gallery:active{
+    transition: opacity 1s;
+}
+.Main .Contact:hover{
+    opacity: 0.15;
+    background-color: rgb(255, 0, 157);
+    /* transition: opacity 1s; */
+    cursor: pointer;
+    font-style: inherit;
+}
+.Main .Contact:active{
+    transition: opacity 1s;
+}
+
+/* .container, p{
+    /* display: flex; */
+    
+
+h1{
+    color: rgb(156, 168, 158);
+    margin-left: 20px;
+    margin-top: 50px;
+    line-height: 70px;
+    font-style: inherit;  
+}
+h2{
+    color: rgb(156, 168, 158);
+    margin-left: 200px;
+    font-style: inherit;
+    /* margin-top: 50px; */
+}
+.name{
+    line-height: 5px;
+    margin-left: 50px;
+    margin-top: 25px;
+    font-style: inherit;
+}
+.style{
+    display: flex;
+    margin-right: 100px;
+    font-style: inherit;
+    
+}
+img{
+    border-radius: 3000px;
+    margin-top:40px;
+    /* margin-bottom: 10px; */
+    margin-left: 30px;
+
+}
+/* .mass{
+    display: flex;
+    margin-left: 500px;
+}
+.mass .Profile{
+    display: flex;
+    /* margin-left: 200px; 
+}*/
+.Profile{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 0;
+    font-style: inherit;
+} 
+.nayak{
+    display: flex;
+    margin-left: 200px;
+    font-style: inherit;
+}
+.Profile .nayak{
+    display: flex;
+    margin-left: 100px;
+    margin: 20vh;
+    font-style: inherit;
+}
+.about{
+    position: none;
+    line-height: none;
+    margin-left: 200px;
+    font-style: inherit;
+    
+}
+p{
+    display: flex;
+    color: white;
+    margin-left: 200px;
+    margin-top: 10px;
+    line-height: 20px;
+    border-radius: 1000px;
+    font-style: inherit;
+    
+
+}
+.skills{
+    line-height: none;
+    margin-left: 200px;
+    font-style: inherit;
+
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: auto;
+}
+.gallery-item {
+    margin: 10px; 
+    margin-top: 100px;
+    margin-left: 15px;
+    /* margin-right: 15px; */
+    padding: 10px;
+    cursor: pointer;
+}
+.gallery-item:hover{
+    opacity: 0.15;
+    transition: 1s;
+    background-color: rgb(80, 241, 6);
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+
+}
+.nandu-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: auto;
+}
+.gallery-items {
+    margin: 10px; 
+    /* margin-top: 100px; */
+   margin-left: 95px; 
+    /* margin-right: 15px;  */
+    cursor: pointer;
+}
+.gallery-items:hover{
+    opacity: 0.15;
+    transition: 1s;
+    background-color: rgb(80, 241, 6);
+}
+.gallery-items img {
+    max-width: 100%;
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    /* margin: 0; */
+    margin-left: 15px;
+       
+}
+.container{
+   margin-bottom: 100px;
+   flex-wrap: wrap;
+    justify-content: auto;
+
+}
+label,
+input,
+textarea,
+button {
+    display: block;
+    /* border: 1px solid #ccc;
+    border-radius: 5px; */
+    width: 50%;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;  
+    border-radius: 8px;
+      
+}
+
+textarea {
+    padding: 30px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+} 
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+
